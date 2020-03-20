@@ -1,5 +1,5 @@
 #!/bin/bash
 git add .
 git status
-git commit -m  "提交修改"
+git commit -m  $0
 git push origin master
