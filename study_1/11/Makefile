@@ -1,5 +1,5 @@
 
-PROGS = 11-2
+PROGS = 11-2 11-3
 
 LDLIBS = -lapue -lpthread
 
