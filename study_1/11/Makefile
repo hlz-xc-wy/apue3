@@ -1,7 +1,7 @@
 
-PROGS = 11-2 11-3 11-4 11-5
+PROGS = 11-2 11-3 11-4 11-5 11-13 11-16
 
-LDLIBS = -lapue -lpthread
+LDLIBS = -lapue -lpthread  -lrt -lbsd
 
 all:	$(PROGS)
 
