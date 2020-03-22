@@ -1,6 +1,17 @@
+git config --global user.name "hlz-xc-wy"
+git config --global user.email "1987800533@qq.com"
+
+git pull //更新远程的修改
+
 git config --global credential.helper store   //记录本地密码
-git add .
-git status 
-git commit -m  "提交修改"
-git push origin master
+git add . //添加更新
+git status //查看更新
+git commit -m  "提交修改" /修改日志
+git push origin master  //提交到服务器
+
+//自己做的的shell脚本 提交更新
+./usr_send 更新日至
+
+//自己做的shell 更新工程
+./usr_update
 
