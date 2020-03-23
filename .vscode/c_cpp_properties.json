@@ -4,7 +4,15 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include"
+                "/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include",
+                "/usr/include/linux",
+                "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8",
+                "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux",
+                "/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward",
+                "/usr/lib/gcc/x86_64-redhat-linux/8/include",
+                "/usr/local/include",
+                "/usr/include"
+               
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
